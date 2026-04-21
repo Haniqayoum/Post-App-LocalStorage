@@ -1,0 +1,172 @@
+html,body{
+    margin: 0;
+ padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url("./assets/background.jpg");
+     background-repeat: no-repeat; 
+     background-size:cover; 
+
+}
+#signUpFormBox{
+    margin: 0 auto ;
+    margin-top: 60px !important;
+}
+.text{
+    padding-right: 20px;
+    color: black !important;
+    margin-bottom: 30px;
+}
+.logo{
+    width: 65px;
+    height: 65px;
+}
+ .btn{
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+} 
+.form-label{
+  margin-bottom: 2px;
+}
+.form-control{
+    margin-bottom: 25px;
+cursor: pointer;
+}
+.form-control:hover{
+    box-shadow: 2px 2px 3px 1px grey;
+}
+.form-control:focus{
+    box-shadow: 2px 2px 3px 1px grey;
+}
+.hidden{
+    display: none !important;
+}
+.navbar {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    border-bottom: 2px solid grey;
+}
+
+.navbar-brand img {
+    height: 60px;
+    padding: 0 !important;
+}
+
+.navbar .container-fluid {
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+}
+
+.bgImg{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+border-radius: 5px;
+border: 3px groove grey;
+}
+.bgImg:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+a.navbar-brand {
+    color: black;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    height: 60px;
+}
+.container-fluid img{
+    width: 50px;
+    height: 50px;
+}
+.form-label.fs-4{
+font-size: large;
+}
+textarea{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn.myBtn{
+  border: 1px solid grey;
+  color: white;
+} 
+.btn.myBtn:hover{
+  box-shadow: 2px 2px 3px 1px grey;
+}   
+.btn.myBtn:focus{
+  box-shadow: 2px 2px 3px 1px grey;
+} 
+.btn.btn-info{
+    background-color: #17a2b8;
+}
+.btn.btn-danger{
+    background-color: #c82333;
+}
+.card-body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 5px;
+}
+.card-header{
+    font-size: x-large;
+    font-family:'lucida grande';
+}
+.btn.btn-info,.btn.btn-danger{
+    display: inline;
+    justify-content: right;
+}
+.card-body p{
+font-size: large;
+    color: white;
+}
+.card-body h5{
+    color: white;
+}
+h6{
+    color: black;
+    font-size: large;
+    margin-left: 5px;
+    line-break: normal;
+}
+.time{
+    color: grey;
+    font-size: small;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.btn{
+    color: white;
+}
+.profile-photo {
+    display: flex;
+    align-items: center; /* Vertically aligns button and image */
+    gap: 15px;           /* Adds space between button and image */
+}
+.profile-photo img {
+    width: 40px;         /* Adjust as needed */
+    height: 40px;
+    border-radius: 50%;  /* Makes it a circle */
+    object-fit: cover;
+}
+
+/* 3. Ensure the Navbar handles the spacing correctly */
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between; /* Pushes logo to left, profile to right */
+    align-items: center;
+}
